@@ -20,6 +20,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <script
+        async
+        src="https://analytics.paulvanderlei.com/script.js"
+        data-website-id="3fed5c7f-03cf-467e-88ec-31bb6bddc6af"
+      ></script>
       <body className={`font-sans ${inter.variable}`}>{children}</body>
     </html>
   );
