@@ -27,7 +27,7 @@ export default function RootLayout({
       ></script>
       <body className={`font-sans ${inter.variable}`}>
         <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-[#000000] to-[#090b29]  text-white">
-          <div className="container flex flex-col justify-center gap-8 px-4 py-16 ">
+          <div className="container flex max-w-[1200px] flex-col justify-center gap-8 px-4 py-16">
             {children}
             {/* Footer */}
             <hr className="w-full border-[#ffffff] border-opacity-10" />
