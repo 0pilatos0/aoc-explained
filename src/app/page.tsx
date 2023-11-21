@@ -1,16 +1,59 @@
+import Year2023 from "@/components/year2023";
 import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#000000] to-[#090b29] text-white">
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
-        <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
+    <>
+      {/* Header */}
+      <div className="flex flex-col gap-4">
+        <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-[4rem]">
           AOC
         </h1>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
-          SoonTM
-        </div>
+        <p className="text-2xl font-extrabold leading-[1] tracking-tight text-white text-opacity-80 sm:text-[2.5rem]">
+          Solving and Explaining the Advent of Code
+        </p>
       </div>
-    </main>
+      <hr className="w-full border-[#ffffff] border-opacity-10" />
+      <p>
+        the advent of code is a yearly event where you solve 25 programming
+        puzzles in the month of december. the puzzles are fun and challenging,
+        and i've been doing them for a few years now. this year i decided to
+        write about my solutions, and explain how i got to them.
+      </p>
+      <p>
+        i'm not a professional puzzle programmer, so i'm sure there are better
+        ways to solve these puzzles. but i'm learning a lot, and i hope you do
+        too. if you have any questions or suggestions, please reach out to me on{" "}
+        <a
+          href="https://twitter.com/PilatoByte"
+          target="_blank"
+          className="text-[#ff0000] hover:text-[#ff0000] hover:underline"
+        >
+          twitter
+        </a>
+        .
+      </p>
+
+      <hr className="w-full border-[#ffffff] border-opacity-10" />
+      <ul className="flex flex-col gap-4">
+        <li>
+          <Link
+            href="/2023"
+            className="text-[#ff0000] hover:text-[#ff0000] hover:underline"
+          >
+            2023
+          </Link>
+          <Year2023 />
+        </li>
+        {/* <li>
+          <a
+            href="/2021/01"
+            className="text-[#ff0000] hover:text-[#ff0000] hover:underline"
+          >
+            2021
+          </a>
+        </li> */}
+      </ul>
+    </>
   );
 }
