@@ -17,13 +17,14 @@ export default function HomePage() {
       <p>
         the advent of code is a yearly event where you solve 25 programming
         puzzles in the month of december. the puzzles are fun and challenging,
-        and i've been doing them for a few years now. this year i decided to
-        write about my solutions, and explain how i got to them.
+        and i&apos;ve been doing them for a few years now. this year i decided
+        to write about my solutions, and explain how i got to them.
       </p>
       <p>
-        i'm not a professional puzzle programmer, so i'm sure there are better
-        ways to solve these puzzles. but i'm learning a lot, and i hope you do
-        too. if you have any questions or suggestions, please reach out to me on{" "}
+        i&apos;m not a professional puzzle programmer, so i&apos;m sure there
+        are better ways to solve these puzzles. but i&apos;m learning a lot, and
+        i hope you do too. if you have any questions or suggestions, please
+        reach out to me on{" "}
         <a
           href="https://twitter.com/PilatoByte"
           target="_blank"
