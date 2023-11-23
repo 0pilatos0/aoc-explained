@@ -6,7 +6,7 @@ import { CodeBlock, dracula } from "react-code-blocks";
 
 function page() {
   return (
-    <div className="flex flex-col gap-4">
+    <>
       <h3 className="text-xl font-extrabold tracking-tight text-white sm:text-[2rem]">
         2023 Solutions and Explanations
       </h3>
@@ -55,7 +55,7 @@ function page() {
         Solutions and Explanations
       </h4>
       <Year2023 />
-    </div>
+    </>
   );
 }
 

@@ -10,7 +10,7 @@ export default function layout({ children }: { children: React.ReactNode }) {
         Home
       </Link>
       <hr className="w-full border-[#ffffff] border-opacity-10" />
-      <div>{children}</div>
+      <div className="flex flex-col gap-4">{children}</div>
     </>
   );
 }
