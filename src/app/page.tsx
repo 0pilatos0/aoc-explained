@@ -1,4 +1,5 @@
 import Separator from "@/components/separator";
+import Title from "@/components/title";
 import Year2023 from "@/components/year2023";
 import Link from "next/link";
 
@@ -17,6 +18,7 @@ export default function HomePage() {
 
       <Separator />
 
+      <Title title="What is it all about?" />
       <p>
         the advent of code is a yearly event where you solve 25 programming
         puzzles in the month of december. the puzzles are fun and challenging,

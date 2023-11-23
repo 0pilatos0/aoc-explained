@@ -1,12 +1,11 @@
+import Title from "@/components/title";
 import Link from "next/link";
 import React from "react";
 
 function page() {
   return (
     <>
-      <h3 className="text-xl font-extrabold tracking-tight text-white sm:text-[2rem]">
-        Day 1 - 2023
-      </h3>
+      <Title title="Day 1 - 2023" />
       <p>
         As the advent of code 2023 has not started yet, the solution and
         explanation for this day will be posted here as soon as possible.

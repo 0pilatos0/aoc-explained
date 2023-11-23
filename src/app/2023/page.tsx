@@ -1,6 +1,8 @@
 "use client";
 
 import Separator from "@/components/separator";
+import SubTitle from "@/components/subTitle";
+import Title from "@/components/title";
 import Year2023 from "@/components/year2023";
 import React from "react";
 import { CodeBlock, dracula } from "react-code-blocks";
@@ -8,9 +10,8 @@ import { CodeBlock, dracula } from "react-code-blocks";
 function page() {
   return (
     <>
-      <h3 className="text-xl font-extrabold tracking-tight text-white sm:text-[2rem]">
-        2023 Solutions and Explanations
-      </h3>
+      <Title title=" 2023 Solutions and Explanations" />
+
       <p>
         Each day the new puzzle will be released at 00:00 EST (UTC-5). I will
         try to solve the puzzle as soon as possible, and write a blog post about
@@ -54,9 +55,8 @@ function page() {
 
       <Separator />
 
-      <h4 className="text-1xl font-extrabold tracking-tight text-white sm:text-[1.4rem]">
-        Solutions and Explanations
-      </h4>
+      <SubTitle title="Solutions and Explanations" />
+
       <Year2023 />
     </>
   );
