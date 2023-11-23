@@ -1,3 +1,4 @@
+import Separator from "@/components/separator";
 import Year2023 from "@/components/year2023";
 import Link from "next/link";
 
@@ -13,7 +14,9 @@ export default function HomePage() {
           Solving and Explaining the Advent of Code
         </p>
       </div>
-      <hr className="w-full border-[#ffffff] border-opacity-10" />
+
+      <Separator />
+
       <p>
         the advent of code is a yearly event where you solve 25 programming
         puzzles in the month of december. the puzzles are fun and challenging,
@@ -35,7 +38,8 @@ export default function HomePage() {
         .
       </p>
 
-      <hr className="w-full border-[#ffffff] border-opacity-10" />
+      <Separator />
+
       <ul className="flex flex-col gap-4">
         <li>
           <Link

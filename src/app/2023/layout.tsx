@@ -1,3 +1,4 @@
+import Separator from "@/components/separator";
 import Link from "next/link";
 
 export default function layout({ children }: { children: React.ReactNode }) {
@@ -9,7 +10,9 @@ export default function layout({ children }: { children: React.ReactNode }) {
       >
         Home
       </Link>
-      <hr className="w-full border-[#ffffff] border-opacity-10" />
+
+      <Separator />
+
       <div className="flex flex-col gap-4">{children}</div>
     </>
   );

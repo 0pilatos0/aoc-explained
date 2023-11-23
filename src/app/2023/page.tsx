@@ -1,5 +1,6 @@
 "use client";
 
+import Separator from "@/components/separator";
 import Year2023 from "@/components/year2023";
 import React from "react";
 import { CodeBlock, dracula } from "react-code-blocks";
@@ -16,7 +17,8 @@ function page() {
         it. but I can&apos;t promise anything.
       </p>
 
-      <hr className="w-full border-[#ffffff] border-opacity-10" />
+      <Separator />
+
       <p>
         For the challange of this year ill be using a template i made to speed
         up the initial setup each day, the setup is using the bun runtime for
@@ -33,7 +35,7 @@ function page() {
         >
           here
         </a>
-        . Feel free to use it if you want.
+        {""}. Feel free to use it if you want.
       </p>
 
       <p>
@@ -50,7 +52,8 @@ function page() {
         theme={dracula}
       />
 
-      <hr className="w-full border-[#ffffff] border-opacity-10" />
+      <Separator />
+
       <h4 className="text-1xl font-extrabold tracking-tight text-white sm:text-[1.4rem]">
         Solutions and Explanations
       </h4>
