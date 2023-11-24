@@ -19,7 +19,7 @@ export default function HomePage() {
 
       <Separator />
 
-      <Title title="Unraveling the Challenge" />
+      <SubTitle title="Unraveling the Challenge" />
       <p>
         The Advent of Code, an annual event, invites you to tackle 25 intriguing
         programming puzzles throughout December. These puzzles promise both fun
