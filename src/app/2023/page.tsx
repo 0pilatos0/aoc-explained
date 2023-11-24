@@ -15,19 +15,19 @@ function page() {
       <p>
         As the clock strikes midnight EST (UTC-5), a new puzzle emerges,
         challenging my coding prowess. While I aim to swiftly conquer each
-        puzzle, I can't make promises on the timing of my solutions. However,
-        rest assured, once I crack the code, a detailed blog post will follow,
-        unraveling the intricacies of the day's challenge.
+        puzzle, I can&apos;t make promises on the timing of my solutions.
+        However, rest assured, once I crack the code, a detailed blog post will
+        follow, unraveling the intricacies of the day&apos;s challenge.
       </p>
 
       <Separator />
 
       <p>
-        To streamline my approach, I've crafted a template for this year's
-        journey. This template, designed to expedite the initial setup,
-        leverages the Bun runtime for seamless Typescript support. By automating
-        the loading and parsing of input files, I can direct my focus squarely
-        on the puzzle at hand.
+        To streamline my approach, I&apos;ve crafted a template for this
+        year&apos;s journey. This template, designed to expedite the initial
+        setup, leverages the Bun runtime for seamless Typescript support. By
+        automating the loading and parsing of input files, I can direct my focus
+        squarely on the puzzle at hand.
       </p>
       <p>
         For those intrigued by the inner workings, the template is available on

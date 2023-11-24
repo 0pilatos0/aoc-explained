@@ -24,27 +24,27 @@ export default function HomePage() {
         The Advent of Code, an annual event, invites you to tackle 25 intriguing
         programming puzzles throughout December. These puzzles promise both fun
         and challenge. Having immersed myself in this coding adventure for
-        several years, I've decided to document my journey this time. My goal is
-        to not just present solutions but to guide you through the process that
-        led me to them.
+        several years, I&apos;ve decided to document my journey this time. My
+        goal is to not just present solutions but to guide you through the
+        process that led me to them.
       </p>
 
       <SubTitle title="Learning Through Exploration" />
       <p>
         While I may not be a seasoned puzzle programmer, this endeavor has been
-        a remarkable learning experience. There's always room for improvement,
-        and I'm eager to share my discoveries with you. As we navigate through
-        these puzzles together, I hope you find not only solutions but valuable
-        insights. If you have questions or suggestions, don't hesitate to
-        connect with me on Twitter.
+        a remarkable learning experience. There&apos;s always room for
+        improvement, and I&apos;m eager to share my discoveries with you. As we
+        navigate through these puzzles together, I hope you find not only
+        solutions but valuable insights. If you have questions or suggestions,
+        don&apos;t hesitate to connect with me on Twitter.
       </p>
 
       <Separator />
       <SubTitle title="Solutions" />
       <p>
-        Each day's puzzle solution will be crafted using Typescript and executed
-        with the Bun runtime. Curious about this year's setup? Check out the
-        details on the{" "}
+        Each day&apos;s puzzle solution will be crafted using Typescript and
+        executed with the Bun runtime. Curious about this year&apos;s setup?
+        Check out the details on the{" "}
         <Link
           href={"/2023"}
           className="text-[#ff0000] hover:text-[#ff0000] hover:underline"
