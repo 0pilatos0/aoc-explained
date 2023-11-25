@@ -1,6 +1,5 @@
 import Separator from "@/components/separator";
 import SubTitle from "@/components/subTitle";
-import Title from "@/components/title";
 import Year2023 from "@/components/year2023";
 import Link from "next/link";
 
