@@ -1,4 +1,5 @@
 import Separator from "@/components/separator";
+import SubTitle from "@/components/subTitle";
 import Title from "@/components/title";
 import Year2023 from "@/components/year2023";
 import Link from "next/link";
@@ -18,29 +19,40 @@ export default function HomePage() {
 
       <Separator />
 
-      <Title title="What is it all about?" />
+      <SubTitle title="Unraveling the Challenge" />
       <p>
-        the advent of code is a yearly event where you solve 25 programming
-        puzzles in the month of december. the puzzles are fun and challenging,
-        and i&apos;ve been doing them for a few years now. this year i decided
-        to write about my solutions, and explain how i got to them.
+        The Advent of Code, an annual event, invites you to tackle 25 intriguing
+        programming puzzles throughout December. These puzzles promise both fun
+        and challenge. Having immersed myself in this coding adventure for
+        several years, I&apos;ve decided to document my journey this time. My
+        goal is to not just present solutions but to guide you through the
+        process that led me to them.
       </p>
+
+      <SubTitle title="Learning Through Exploration" />
       <p>
-        i&apos;m not a professional puzzle programmer, so i&apos;m sure there
-        are better ways to solve these puzzles. but i&apos;m learning a lot, and
-        i hope you do too. if you have any questions or suggestions, please
-        reach out to me on{" "}
-        <a
-          href="https://twitter.com/PilatoByte"
-          target="_blank"
-          className="text-[#ff0000] hover:text-[#ff0000] hover:underline"
-        >
-          twitter
-        </a>
-        .
+        While I may not be a seasoned puzzle programmer, this endeavor has been
+        a remarkable learning experience. There&apos;s always room for
+        improvement, and I&apos;m eager to share my discoveries with you. As we
+        navigate through these puzzles together, I hope you find not only
+        solutions but valuable insights. If you have questions or suggestions,
+        don&apos;t hesitate to connect with me on Twitter.
       </p>
 
       <Separator />
+      <SubTitle title="Solutions" />
+      <p>
+        Each day&apos;s puzzle solution will be crafted using Typescript and
+        executed with the Bun runtime. Curious about this year&apos;s setup?
+        Check out the details on the{" "}
+        <Link
+          href={"/2023"}
+          className="text-[#ff0000] hover:text-[#ff0000] hover:underline"
+        >
+          2023
+        </Link>{" "}
+        Page. For more insights into the Bun runtime, explore bun.sh.
+      </p>
 
       <ul className="flex flex-col gap-4">
         <li>

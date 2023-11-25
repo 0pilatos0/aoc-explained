@@ -6,7 +6,7 @@ type SubTitleProps = {
 
 function SubTitle({ title }: Readonly<SubTitleProps>) {
   return (
-    <h4 className="text-1xl font-extrabold tracking-tight text-white sm:text-[1.4rem]">
+    <h4 className="text-1xl font-extrabold tracking-tight text-white sm:text-[1.2rem]">
       {title}
     </h4>
   );
