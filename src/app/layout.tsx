@@ -25,8 +25,11 @@ export default function RootLayout({
         src="https://analytics.paulvanderlei.com/script.js"
         data-website-id="3fed5c7f-03cf-467e-88ec-31bb6bddc6af"
       ></script>
-      <body className={`font-sans ${inter.variable}`}>
-        <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-[#000000] to-[#090b29]  text-white">
+      <body
+        className={`font-sans ${inter.variable}`}
+        style={{ background: "#0b0b0b" }}
+      >
+        <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-[#0b0b0b] to-[#191919]  text-white">
           <div className="container flex max-w-[1200px] flex-col justify-center gap-8 px-4 py-16">
             {children}
             {/* Footer */}
