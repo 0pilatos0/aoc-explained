@@ -1,4 +1,3 @@
-import Countdown from "@/components/countdown";
 import Separator from "@/components/separator";
 import SubTitle from "@/components/subTitle";
 import Year2023 from "@/components/year2023";

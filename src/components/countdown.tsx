@@ -64,7 +64,7 @@ function Countdown() {
                 {days} Days {hours} Hours {minutes} Minutes {seconds} Seconds
                 untill the next puzzle releases
               </>
-            )) || <>Initiating Countdown</>}
+            )) ?? <>Initiating Countdown</>}
           </>
         )}
       </p>
