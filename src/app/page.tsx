@@ -1,19 +1,29 @@
 import Separator from "@/components/separator";
 import SubTitle from "@/components/subTitle";
 import Year2023 from "@/components/year2023";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function HomePage() {
   return (
     <>
       {/* Header */}
-      <div className="flex flex-col gap-4">
-        <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-[4rem]">
-          AOC
-        </h1>
-        <p className="text-2xl font-extrabold leading-[1] tracking-tight text-white text-opacity-80 sm:text-[2.5rem]">
-          Solving and Explaining the Advent of Code
-        </p>
+      <div className="flex justify-between">
+        <div className="flex flex-col gap-4">
+          <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-[4rem]">
+            AOC
+          </h1>
+          <p className="text-2xl font-extrabold leading-[1] tracking-tight text-white text-opacity-80 sm:text-[2.5rem]">
+            Solving and Explaining the Advent of Code
+          </p>
+        </div>
+        <Image
+          src={"/aoc.png"}
+          width={100}
+          height={100}
+          alt="AOC Logo"
+          className="hidden md:block"
+        />
       </div>
 
       <Separator />
