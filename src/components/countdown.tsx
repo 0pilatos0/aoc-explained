@@ -55,7 +55,7 @@ function Countdown() {
   }, []);
 
   return (
-    <div className="flex flex-col gap-4 py-2 pt-10 sm:pt-2">
+    <div className="flex flex-col gap-4 py-2">
       <p className="text-center text-sm font-extrabold leading-[1] tracking-tight text-white text-opacity-80">
         {!countDownHidden && (
           <>
