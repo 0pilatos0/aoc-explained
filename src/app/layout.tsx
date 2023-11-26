@@ -1,3 +1,4 @@
+import Countdown from "@/components/countdown";
 import "@/styles/globals.css";
 
 import { Inter } from "next/font/google";
@@ -30,6 +31,8 @@ export default function RootLayout({
         style={{ background: "#0b0b0b" }}
       >
         <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-[#0b0b0b] to-[#191919]  text-white">
+          <Countdown />
+
           <div className="container flex max-w-[1200px] flex-col justify-center gap-6 px-4 py-16">
             {children}
             {/* Footer */}
