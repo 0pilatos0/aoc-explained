@@ -2,6 +2,7 @@ import Countdown from "@/components/countdown";
 import "@/styles/globals.css";
 
 import { Inter } from "next/font/google";
+import { redirect } from "next/navigation";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,6 +20,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  redirect("https://github.com/0pilatos0/adventofcode");
   return (
     <html lang="en">
       <script
